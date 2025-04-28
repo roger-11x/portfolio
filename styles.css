@@ -1,0 +1,139 @@
+
+html {
+    background-color: #333333;
+    margin-top: 20px;
+}
+
+ul {
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #d5ccc7;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: "Playfair Display", sans-serif ;
+    color: #d5ccc7;
+}
+
+p {
+    font-size: 1.375rem;
+    font-family: "Montserrat", sans-serif;
+    color: #a9a29c;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+
+img {
+    width: 483px ;
+    height: 630px ;
+    border-radius: 7%;
+}
+
+.left-side {
+    position: relative;
+    padding: 20px 20px;
+    top: 150px;
+}
+
+.right-side {
+    position: relative;
+    /* padding: 20px 20px; */
+    top: 40px;
+}
+
+.my-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    padding: 6px 0px;
+    color: #a9a29c;
+    border-radius: 5%;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+.nav-bar {
+    font-size: 1.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    right: 285px;
+    top: 20px;
+}
+
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 22px;
+}
+
+
+.line1 {
+    width: 14px;
+    height: 14px;
+}
+
+.nav-items.active {
+    /* background-color: #b8dbd9; */
+    color: #f4f4f9;
+    border-radius: 10px;
+}
+
+.nav-items:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.socials {
+    font-size: 2.0rem;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    bottom: 42px;
+    right: 38px;
+}
+
+i{
+    color: white;
+}
+
+a:hover i {
+    color: #d5ccc7;
+}
+
+.license {
+    font-size: .9rem;
+    position: sticky;
+    text-align: center;
+    bottom: 0%;
+    padding: 20px;
+}
