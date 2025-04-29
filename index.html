@@ -3,89 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets">
-    <link rel="stylesheet" href="about.html">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <title>Personal Portfolio #1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Card</title>
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <a href="/"class="nav-items active">Home</a>
-            <a href="#about-me"class="nav-items">About Me</a>
-            <a href="#projects"class="nav-items">Projects</a>
-            <a href="#gallery"class="nav-items">Gallery</a>
-        </nav>
-    </header>
-
-    <main>
-        <div class="hero-section">
-            <div class="left-side">
-                <h1>Roger Mark Tumaneng</h1>
-                <img src="assets/Line 1.svg" alt="" class="line1">
-                <p>Front-End Web Developer / Cybersecurity <br> in Digital Forensics and Penetration Testing</p>
-                 <a href="assets/Up-to-date-Resume.pdf" class="btn" download="Up-to-date-Resume">Full Resume</a>
-                 <div class="socials">
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/roger_mwp" target="_blank"><i class="ri-instagram-line"></i></a>
-                        <a href="https://github.com/roger-11x" target="_blank"><i class="ri-github-line"></i></a>
-                        <a href="mailto:officialrogertum11@gmail.com" target="blank"><i class="ri-mail-line"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="right-side">
-                <img src="assets/profile.JPG" class="img-main">
-                <p class="my-pic">Yup that's Me!</p>
-            </div>
+    <div class="profile-card">
+        <div class="img">
+            <img src="pfp.jpg" alt="my_pfp" class="profile-img">
         </div>
 
-        <section class="grid-container">
-            <div id="about-me" class="about-me">
-            <h2 class="h2-title">About Me</h2>
-                <p class="about-me-p">Hello&#128075! <br>
-                    <br> I'm Roger - an aspiring web developer with an interest in cybersecurity, based in Guam and currently studying <a href="https://guamcc.edu/associate-science-information-technology-0" class="degree" target="_blank">Information Technology</a> at <a href="https://guamcc.edu" class="degree" target="_blank">Guam Community College</a>. I'm passionate about building a secure, beautiful websites and bringing a security-first mindset to every project I launch. I'm focusing on mastering HTML and CSS, and I'm excited to eventually dive into JavaScript and more advanced web development.</p>
-                <p class="about-me-p">My web development journey started with basic web design during class when I was fiddling around with HTML, which quickly evolved my interest further into building websites, and how systems work-and how they break. The curiosity led me to dive deeper into web development, digital forensics and penetration testing. </p>
-                <p class="about-me-p">I'm constantly learning - whether it's through hands-on projects, classroom labs, or exploring new ways to make the web safer. Outside of tech, I'm into photography, video editing, gaming, and watching sports &#40; 76ers Fan, Yeah I know...	&#41;.</p>
-                <p class="about-me-p">Let's connect - I'm always open to discussing interesting projects or collaboration. Or if you have the same interests!</p>
-                <div class="btn-con-wrapper">
-                    <a href="assets/Up-to-date-Resume.pdf" class="btn-con" download="Up-to-date-Resume">Follow Me</a>   
-                </div> 
-            </div>        
-        <div id="projects" class="projects">
-            <h2 class="h2-title">Projects</h2>
-            <div class="project-info">
-                <h3 class="h3-proj">Building Computers</h3>
-                <p class="proj-desc">-Built and assisted in building cusom computers over a span of 3 years <br> -Diagnosed and resolved hardware and software issues, including driver issues and OS errors.</p>
-            </div>
-            <div class="project-info">
-                <h3 class="h3-proj">Fiber Splicing and Data Cabling</h3>
-                <p class="proj-desc">-Gained hands-on experience in fiber splicing and cabling as part of a classroom lab/project.</p>
-            </div>
-            <div class="project-info">
-                <h3 class="h3-proj">Portfolio</h3>
-                <p class="proj-desc">-If you're reading this on this website, well... Believe it or not I've built it. <br> -Designed and built with simple HTML and CSS and a little bit of love from Figma!</p>
-            </div>
-            <div class="btn-con-wrapper">
-                <a href="assets/Up-to-date-Resume.pdf" class="btn-con" download="Up-to-date-Resume">View Courses / Projects</a>   
-            </div>
-        </section>
-        <section class="gallery-container">
-            <div id="gallery" class="gallery">
-                <h2 class="h2-title">Gallery</h2>
-                <div class="pic-info">
-                    <img src="" class="pic-imgs">
-                    <p class="pic-desc"></p>
-                </div>
-        </section>
+        <div class="text-data">
+            <span class="name">Roger Mark Tumaneng</span>
+            <span class="job">Front-end Web Developer &</span>
+            <span class="job">Cybersecurity in Digital Forensics and Penetration Testing</span>
+        </div>
 
-    </main>
+        <div class="media-buttons">
+            <a href="https://www.instagram.com/roger_mwp" target="_blank" style="background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5) " class="links">
+                <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://www.github.com/roger-11x" target="_blank" style="background: black " class="links">
+                <i class="ri-github-fill"></i>
+            </a>
+            <a href="https://mailto:officialrogertum11@gmail.com" target="_blank" style="background: #1D1D1D " class="links">
+                <i class="ri-mail-fill"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/roger-mark-tumaneng-64b6092b7" target="_blank" style="background: #0a66c2 " class="links">
+                <i class="ri-linkedin-fill"></i>
+            </a>
+        </div>
 
-    <footer>
-        <p class="license">Roger Mark Tumaneng &#169; since April 28 2025</p>
-    </footer>
+        <div class="btn">
+            <a href="Up-to-date-Resume.pdf" target="_blank" download="Up-to-date-Resume" class="btn-link">Full Resume</a>
+        </div>
+
+    </div>
+
+
+
 </body>
 </html>
