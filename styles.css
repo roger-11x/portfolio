@@ -54,7 +54,16 @@ body {
 
 .text-data .name {
     font-size: 22px;
+    color: #D3AF37;
+}
+
+.text-data .degree {
+    font-size: 18px;
     color: #F1F1F1;
+}
+
+.degree {
+    margin-bottom: 10px;
 }
 
 .name {
@@ -133,7 +142,11 @@ body {
 
 @media (max-width: 511px ) {
     .text-data .job {
-        font-size: .625rem;
-        color: #FFFFFF;
+        font-size: .7rem;
+        color: #BBBBBB;
+    }
+
+    .text-data .degree {
+        font-size: 1rem;
     }
 }
