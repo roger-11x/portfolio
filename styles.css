@@ -22,7 +22,7 @@ body {
     align-items: center;
     max-width: 560px;
     width: 100%;
-    background-color: #333333;
+    background-color: #0d1821;
     border-radius: 24px;
     padding: 25px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
@@ -54,16 +54,17 @@ body {
 
 .text-data .name {
     font-size: 22px;
-    color: #D3AF37;
+    color: #f0f4ef;
 }
 
 .text-data .degree {
     font-size: 18px;
-    color: #F1F1F1;
+    color: #b4cded;
 }
 
 .degree {
     margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 .name {
@@ -73,7 +74,7 @@ body {
 
 .text-data .job {
     font-size: 1rem;
-    color: #BBBBBB;
+    color: #f0f4ef;
 }
 
 .job {
@@ -101,7 +102,9 @@ body {
 }
 
 .links:hover{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1)
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    transition: ease-in 0.2s;
+    
 }
 
 .profile-card{
@@ -137,16 +140,44 @@ body {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
 }
 
+.highlights-it {
+    color: #1d6ed8;
+}
+
+
+
+
+
+
 
 /* Media */
 
-@media (max-width: 511px ) {
+@media (max-width: 504px ) {
     .text-data .job {
-        font-size: .7rem;
-        color: #BBBBBB;
+        font-size: .85rem;
     }
 
     .text-data .degree {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 444px ) {
+    .text-data .job {
+        font-size: .75rem;
+    }
+
+    .text-data .degree {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 396px ) {
+    .text-data .job {
+        font-size: .60rem;
+    }
+
+    .text-data .degree {
+        font-size: .9rem;
     }
 }
